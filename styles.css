@@ -1041,9 +1041,9 @@ button { border: 0; background: none; cursor: pointer; font: inherit; color: inh
 }
 .contact-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 18px;
-  max-width: 880px;
+  max-width: 980px;
   margin: 0 auto;
 }
 .contact-card {
@@ -1086,9 +1086,9 @@ button { border: 0; background: none; cursor: pointer; font: inherit; color: inh
   font-size: 15px;
   font-weight: 500;
   color: var(--ink);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
 }
 .contact-arrow {
   font-size: 22px;
