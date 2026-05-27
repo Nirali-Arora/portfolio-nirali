@@ -912,6 +912,9 @@ button { border: 0; background: none; cursor: pointer; font: inherit; color: inh
   margin-bottom: 50px;
 }
 .cert-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
   position: relative;
   background: var(--surface);
   border-radius: var(--radius-lg);
